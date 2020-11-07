@@ -1,0 +1,21 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Classe et Objet}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{D\351finitions}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Cr\351ation de classe en Python}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Exemple : Une classe pour comptes bancaires}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Cr\351ation d'objets en Python}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.5}{Constructeur}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.6}{Destructeur}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{M\351thodes sp\351ciales et surcharge des op\351rateurs}{}% 9
+\BOOKMARK [2][-]{subsection.3.1}{Surcharge de l'appel fonctionnel}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.2}{Repr\351sentation formelle d'un objet}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.3}{Repr\351sentation informelle d'un objet}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.4}{Surcharge des op\351rateurs}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.5}{Exemple : Classe pour les vecteurs dans le plan}{section.3}% 14
+\BOOKMARK [1][-]{section.4}{H\351ritage et polymorphisme}{}% 15
+\BOOKMARK [2][-]{subsection.4.1}{Exemple d'h\351ritage et de polymorphisme}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.2}{Exemple d'h\351ritage et de d\351rivation}{section.4}% 17
+\BOOKMARK [1][-]{section.5}{Application : Cr\351ation des classes Pile et File}{}% 18
+\BOOKMARK [2][-]{subsection.5.1}{La classe Pile}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.2}{La classe File}{section.5}% 20
+\BOOKMARK [2][-]{subsection.5.3}{Exemple d'inversion d'une pile}{section.5}% 21

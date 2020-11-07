@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{n}{c1} \PYG{o}{=} \PYG{n}{CompteBancaire}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Mohamed Ahmed\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}19371554951\PYGZsq{}}\PYG{p}{,} \PYG{l+m+mi}{20000}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{n}{c2} \PYG{o}{=} \PYG{n}{CompteBancaire}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Ali Tounsi\PYGZsq{}}\PYG{p}{,}  \PYG{l+s+s1}{\PYGZsq{}19371564761\PYGZsq{}}\PYG{p}{,} \PYG{l+m+mi}{10000}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{n}{c1}\PYG{o}{.}\PYG{n}{depot}\PYG{p}{(}\PYG{l+m+mi}{1000}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{n}{c1}\PYG{o}{.}\PYG{n}{retrait}\PYG{p}{(}\PYG{l+m+mi}{4000}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{n}{c2}\PYG{o}{.}\PYG{n}{retrait}\PYG{p}{(}\PYG{l+m+mi}{8750}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{n}{c1}\PYG{o}{.}\PYG{n}{retrait}\PYG{p}{(}\PYG{l+m+mi}{1250}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}le solde de c1 : \PYGZdq{}}\PYG{p}{,} \PYG{n}{c1}\PYG{o}{.}\PYG{n}{sold}\PYG{p}{)}
+\PYG{n}{le} \PYG{n}{solde} \PYG{n}{de} \PYG{n}{c1} \PYG{p}{:}  \PYG{l+m+mi}{15750}
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{n}{c1}\PYG{o}{.}\PYG{n}{decharge}\PYG{p}{()}
+\PYG{n}{Mohamed} \PYG{n}{Ahmed}\PYG{p}{,} \PYG{l+m+mi}{19371554951}\PYG{p}{,} \PYG{n}{solde} \PYG{p}{:} \PYG{l+m+mi}{15750}
+\end{Verbatim}

@@ -1,0 +1,27 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}Classe et Objet}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}D\IeC {\'e}finitions}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Cr\IeC {\'e}ation de classe en Python}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Exemple : Une classe pour comptes bancaires}{4}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Cr\IeC {\'e}ation d'objets en Python}{4}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Constructeur}{5}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Destructeur}{6}{subsection.2.6}
+\contentsline {section}{\numberline {3}M\IeC {\'e}thodes sp\IeC {\'e}ciales et surcharge des op\IeC {\'e}rateurs}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Surcharge de l'appel fonctionnel}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Repr\IeC {\'e}sentation formelle d'un objet}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Repr\IeC {\'e}sentation informelle d'un objet}{9}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Surcharge des op\IeC {\'e}rateurs}{9}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Exemple : Classe pour les vecteurs dans le plan}{10}{subsection.3.5}
+\contentsline {paragraph}{Impl\IeC {\'e}mentation.}{11}{section*.2}
+\contentsline {paragraph}{Utilisation.}{11}{section*.3}
+\contentsline {section}{\numberline {4}H\IeC {\'e}ritage et polymorphisme}{12}{section.4}
+\contentsline {subsection}{\numberline {4.1}Exemple d'h\IeC {\'e}ritage et de polymorphisme}{13}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Exemple d'h\IeC {\'e}ritage et de d\IeC {\'e}rivation}{14}{subsection.4.2}
+\contentsline {section}{\numberline {5}Application : Cr\IeC {\'e}ation des classes Pile et File}{14}{section.5}
+\contentsline {subsection}{\numberline {5.1}La classe Pile}{14}{subsection.5.1}
+\contentsline {paragraph}{D\IeC {\'e}finition d'une pile.}{14}{section*.4}
+\contentsline {paragraph}{Impl\IeC {\'e}mentation d'une classe Pile.}{15}{section*.5}
+\contentsline {subsection}{\numberline {5.2}La classe File}{15}{subsection.5.2}
+\contentsline {paragraph}{D\IeC {\'e}finition d'une File.}{15}{section*.6}
+\contentsline {paragraph}{Impl\IeC {\'e}mentation d'une classe File.}{16}{section*.7}
+\contentsline {subsection}{\numberline {5.3}Exemple d'inversion d'une pile}{16}{subsection.5.3}

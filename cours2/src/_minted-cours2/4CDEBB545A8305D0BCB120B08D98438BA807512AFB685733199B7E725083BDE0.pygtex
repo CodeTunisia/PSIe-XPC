@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{x} \PYG{o}{=} \PYG{l+m+mi}{7} \PYG{o}{+} \PYG{l+m+mi}{9} \PYG{c+c1}{\PYGZsh{} addition entière}
+\PYG{n}{s} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}ab\PYGZsq{}} \PYG{o}{+} \PYG{l+s+s1}{\PYGZsq{}cd\PYGZsq{}} \PYG{c+c1}{\PYGZsh{} concaténation}
+\end{Verbatim}

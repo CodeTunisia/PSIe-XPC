@@ -1,0 +1,536 @@
+<div class="highlight" style="background: #eeeedd"><pre style="line-height: 125%"><span></span><span style="color: #000080; font-weight: bold">TITLE: Chapitre 2 : Programmation Orientée Objet</span>
+<span style="color: #000080; font-weight: bold">AUTHOR:</span> Ahmed Ammar at Institut Préparatoire aux Études Scientifiques et Techniques, Université de Carthage.
+
+<span style="color: #000080; font-weight: bold">DATE:</span> today
+
+<span style="color: #000080; font-weight: bold">TOC:</span> on
+
+<span style="color: #8B008B; font-weight: bold">!split</span>
+<span style="color: #000080; font-weight: bold">======= Introduction =======</span>
+La Programmation Orientée Objet (POO) est une discipline de programmation dans laquelle le programmeur établit :
+* non seulement les structures de données,
+* mais aussi les opérations qui peuvent leurs être appliquées.
+Ainsi,
+* la structure de données devient un _objet_ qui inclut
+ * Données, appelées _attributs_
+ * Opérations, appelées _méthodes_
+* Le programmeur peut définir des _relations_ entre les objets
+
+
+
+
+<span style="color: #8B008B; font-weight: bold">!split</span>
+<span style="color: #000080; font-weight: bold">======= Classe et Objet =======</span>
+<span style="color: #000080; font-weight: bold">===== Définitions =====</span>
+Une _classe_ est équivalente à un nouveau type de données. On connaît déjà par exemple les classes `list` ou `str` et les nombreuses méthodes permettant de les manipuler, par exemple :
+* `[3, 5, 1].sort()`
+* `casse.upper()`
+Un _objet_ ou une _instance_ est un exemplaire particulier d&#39;une classe. Par exemple `[3, 5, 1]` est une instance de la classe `list` et `casse` est une instance de la classe `str`.
+
+Les objets ont généralement deux sortes d&#39;attributs : les données nommées simplement _attributs_ et les fonctions applicables appelées _méthodes_.
+
+Par exemple un objet de la classe `complex` possède :
+* deux attributs : `imag` et `real` ;
+* plusieurs méthodes, comme `conjugate()`, `abs()`...
+
+La plupart des classes encapsulent à la fois les données et les méthodes applicables aux objets. Par exemple un objet `str` contient une chaîne de caractères Unicode (les données) et de nombreuses méthodes.
+
+On peut définir un *objet* comme une *capsule* contenant des _attributs_ et des _méthodes_.
+
+<span style="color: #000080; font-weight: bold">===== Création de classe en Python =====</span>
+Une nouvelle classe est définie par le mot-clé `class`.
+
+_Syntaxe de la création :_
+
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod-t
+class NomDeLaClasse:
+  # Définition des attributs de la classe
+  nom_attr = valeur # attribut de valeur commune pour toutes les instances
+  ...
+  # Définition des attributs d&#39;objet (chaque instance a sa propre valeur)
+  def __init__(self, parametres): # le constructeur de l&#39;objet
+    self.nomattr1= v1
+    self.nomattr2= v2
+    ...
+
+  # Définition des méthodes
+  def nom_methode(self, autres_parametres):
+    # Corps de la méthode
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+
+Une classe permet de définir (déclarer) l&#39;ensemble attributs et méthodes relatives à une catégorie d&#39;objets.
+* _Attributs de classe :_ Un attribut de classe est défini au niveau de la classe et sa valeur est partagée par tous les objets instanciés de cette classe. L&#39;accès à l&#39;attribut est donné par : `NomDeLaClasse.nom_attribut`
+* _Attributs d&#39;objets :_ Un attribut d&#39;objet est défini au niveau de la méthode constructeur. La valeur d&#39;un attribut d&#39;objet est propre à chaque objet. L&#39;accès à l&#39;attribut est donné par : `nom_Objet.nom_attribut`
+* _Le constructeur d&#39;objet :_ Le constructeur est une méthode particulière appelée lors de la création d&#39;un nouvel objet permettant d&#39;initialiser ses attributs. Le constructeur se définit dans une classe comme une fonction avec deux particularités~:
+  * le nom de la méthode doit être `__init__` ;
+  * la méthode doit accepter au moins un paramètre de nom `self` qui apparaît en premier.
+* _Le paramètre self :_ Le paramètre `self` représente en fait l&#39;objet cible, c&#39;est-à-dire que c&#39;est une variable qui référence l&#39;objet en cours de création et permettant d&#39;accéder à ses attributs et fonctionnalités.
+* _Les méthodes :_ Une méthode est une fonction qui agit principalement sur une instance de la classe. Elle doit accepter au moins le paramètre `self` figurant en première position. L&#39;appel d&#39;une méthode se fait par : `nom_Objet.nom_méthode(autres paramètres)`
+
+<span style="color: #000080; font-weight: bold">===== Exemple : Une classe pour comptes bancaires =====</span>
+
+Le concept de compte bancaire dans un programme est un bon candidat pour un cours. Le compte comporte certaines données, généralement le nom du titulaire du compte, le numéro de compte et le solde courant. Trois choses que l&#39;on peut faire avec un compte, c&#39;est retirer de l&#39;argent, mettre de l&#39;argent sur le compte et imprimer les données du compte. Ces actions sont modélisées par des méthodes. Avec une classe, nous pouvons regrouper les données et les actions dans un nouveau type de données de sorte qu&#39;un compte corresponde à une variable d&#39;un programme.
+
+Elle est créée ainsi :
+
+<span style="color: #800080; font-weight: bold">@@@CODE scripts/class.py</span>
+
+La classe `CompteBancaire` définie par:
+* _Les attributs:_
+ * Attributs de classe : `nomBanque` (nom de la banque);
+ * Attributs d&#39;objet : `no` (numéro du compte), `nom` (nom du propriétaire) et `sold` (solde).
+* _Les méthodes :_ `depot`, `decharge` et `retrait`.
+
+<span style="color: #658b00">FIGURE: [scripts/classes_CompteBancaire, width=150 frac=0.5] Diagramme de classe `CompteBancaire`.</span>
+
+<span style="color: #000080; font-weight: bold">===== Création d&#39;objets en Python =====</span>
+La création d&#39;une _instance_ (objet) d&#39;une classe donnée se fait par un appel au nom de la classe avec les paramètres effectifs du constructeur, selon la syntaxe suivante :
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod-t
+&gt;&gt;&gt; nom_obj = NomClasse(paramètres effectifs du constructeur)
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+Voici un test simple de la façon dont la classe `CompteBancaire` peut être utilisée :
+<span style="color: #8B008B; font-weight: bold">!bc</span> pyshell
+&gt;&gt;&gt; c1 = CompteBancaire(&#39;Mohamed Ahmed&#39;, &#39;19371554951&#39;, 20000)
+&gt;&gt;&gt; c2 = CompteBancaire(&#39;Ali Tounsi&#39;,  &#39;19371564761&#39;, 10000)
+&gt;&gt;&gt; c1.depot(1000)
+&gt;&gt;&gt; c1.retrait(4000)
+&gt;&gt;&gt; c2.retrait(8750)
+&gt;&gt;&gt; c1.retrait(1250)
+&gt;&gt;&gt; print(&quot;le solde de c1 : &quot;, c1.sold)
+le solde de c1 :  15750
+&gt;&gt;&gt; c1.decharge()
+Mohamed Ahmed, 19371554951, solde : 15750
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+<span style="color: #000080; font-weight: bold">===== Constructeur =====</span>
+
+Les constructeurs sont généralement utilisés pour _instancier un objet_. La tâche des constructeurs consiste à initialiser (attribuer des valeurs) aux attributs de la classe lorsqu&#39;un objet de la classe est créé.
+
+En Python, la méthode `__init__()` est appelée le constructeur et est toujours appelée. quand un objet est créé.
+
+_Types de constructeurs :_
+
+* _Constructeur par défaut_ : le constructeur par défaut est un constructeur simple qui n’accepte aucun argument. Sa définition n’a qu’un seul argument qui soit une référence à l’instance en cours de construction.
+* _Constructeur paramétré_ : Le constructeur paramétré prend son premier argument en tant que référence à l&#39;instance en cours de construction, appelée self, et le reste des arguments est fourni par le programmeur.
+
+En python, on ne peut définir qu&#39;un seul constructeur :
+
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod-t
+class Personne:
+    nom=&#39;&#39;
+    prenom=&#39;&#39;
+
+    # constructeur de la classe
+    def __init__(self, nom, prenom):
+        self.nom=nom
+        self.prenom=prenom
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+<span style="color: #000080; font-weight: bold">===== Destructeur =====</span>
+Les destructeurs sont appelés lorsqu&#39;un objet est détruit. En Python, les destructeurs ne sont pas aussi nécessaires que en d&#39;autres langages de programmation, car Python dispose d&#39;un _ramasse-miettes_ qui gère automatiquement la gestion de la mémoire.
+
+La méthode `__del __()` est une méthode appelée _destructeur_ en Python. Il est appelé lorsque toutes les références à l’objet ont été supprimées, c’est-à-dire lorsqu’un objet est nettoyé.
+
+_Exemple 1 : Classe Tableau :_
+
+Voici un exemple simple de destructeur :
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod
+class Tableau:
+    donnee=[]
+    # constructeur de la classe
+    def __init__(self):
+        #initialiser le tableau avec 100 éléments
+        self.donnee=[0]*100
+
+    def __del__(self):
+        print(&quot;je suis le destructeur&quot;)
+        # vider le tableau
+        self.donnee.clear()
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+En utilisant le mot-clé `del`, nous avons supprimé toutes les références de l’objet `tab`. Le destructeur est donc invoqué automatiquement.
+<span style="color: #8B008B; font-weight: bold">!bc</span> pyshell
+&gt;&gt;&gt; tab = Tableau()
+&gt;&gt;&gt; del tab
+je suis le destructeur
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+<span style="color: #8B008B; font-weight: bold">!bnotice</span>
+Le destructeur est appeler à la fin du programme ou lorsque toutes les références à l&#39;objet ont été supprimées. C&#39;est-à-dire que le nombre de références devient zéro, et non lorsque l&#39;objet est sorti de la portée.
+<span style="color: #8B008B; font-weight: bold">!enotice</span>
+
+_Exemple 2 : Classe Personne :_
+
+Cet exemple donne une explication de la note.
+
+<span style="color: #800080; font-weight: bold">@@@CODE scripts/Personne.py</span>
+
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod
+def creation():
+    print(&quot;creation de l&#39;objet&quot;)
+    p = Personne(&#39;TOUNSI&#39;,&#39;Mohamed&#39;)
+    print(&#39;fin de la création&#39;)
+    return p
+
+print(&quot;Début du programme&quot;)
+p1=creation()
+print(&quot;Je suis {} {}, je suis un objet d&#39;ID : {}&quot;.format(p1.nom, p1.prenom, id(p1)))
+print(&quot;fin du programme&quot;)
+del p1
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+Notez que le destructeur est appelé après l&#39;affichage de *&quot;Fin du programme...&quot;*
+
+<span style="color: #000080; font-weight: bold">======= Méthodes spéciales et surcharge des opérateurs =======</span>
+Certaines méthodes de classe ont des noms qui commencent et se terminent par un double trait de soulignement. Ces méthodes permettent une syntaxe spéciale dans le programme et sont appelées _méthodes spéciales_. Le constructeur `__init__()` en est un exemple. Cette méthode est automatiquement appelée lorsqu&#39;une instance est créée, mais nous n&#39;avons pas besoin d&#39;écrire explicitement `__init__()`. D&#39;autres méthodes spéciales permettent d&#39;effectuer des opérations arithmétiques avec des instances, de comparer des instances avec `&gt;`, `&gt;=`, `!=`, etc., d&#39;appeler des instances comme nous appelons les fonctions ordinaires, et de tester si une instance évalue à Vrai ou Faux, pour mentionner certaines possibilités.
+
+La _surcharge_ permet à un opérateur de _posséder un sens différent_ suivant le _type_ de ses opérandes.
+
+Par exemple, l&#39;opérateur `+` permet :
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod-t
+x = 7 + 9 # addition entière
+s = &#39;ab&#39; + &#39;cd&#39; # concaténation
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+Python possède des méthodes de surcharge pour :
+* tous les types (`__call__`, `__str__` ...) ;
+* les nombres (`__add__`, `__div__` ...) ;
+* les séquences (`__len__`, `__iter__` ...).
+
+<span style="color: #000080; font-weight: bold">===== Surcharge de l&#39;appel fonctionnel =====</span>
+La méthode `__call__` permet aux programmeurs Python d&#39;écrire des classes dont les instances se comportent comme des fonctions et peuvent être appelées comme une fonction. Lorsque l&#39;instance est appelée comme une fonction ; si cette méthode est définie, `objet(arg1, arg2, ...)` est une abréviation de `objet.__call__(arg1, arg2, ...)`.
+
+_Exemple :_
+
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod
+class Produit:
+	def __init__(self):
+		print(&quot;Création de l&#39;instance&quot;)
+
+	# Définir la méthode __call__.
+	def __call__(self, a, b):
+		print(a * b)
+
+<span style="color: #228B22"># Création de l&#39;instance</span>
+ans = Produit()
+
+<span style="color: #228B22"># La méthode __call__ sera appelée</span>
+ans(10, 20)
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+<span style="color: #000080; font-weight: bold">===== Représentation formelle d&#39;un objet =====</span>
+
+Pour afficher les informations relatives à un objet, en utilisant le nom de l&#39;objet (représentation sur le shell) ou en utilisant la commande `print()` , il faut surcharger la méthode spéciale `__repr__` :
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod-t
+def __repr__(self):
+  return #la chaine qu&#39;on veut afficher
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+_Exemple :_
+
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod
+class point:
+    def __init__(self,a,b):
+        self.x=a
+        self.y=b
+    def __repr__(self):
+        return (str((self.x , self.y)))
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+<span style="color: #8B008B; font-weight: bold">!bc</span> pyshell
+&gt;&gt;&gt; p=point(2,3)
+&gt;&gt;&gt; p # l&#39;exécution de l&#39;évaluation de p fait appel à __repr__
+(2,3)
+&gt;&gt;&gt; print(p) # l&#39;exécution de print fait appel à la méthode __repr__
+(2,3)
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+<span style="color: #000080; font-weight: bold">===== Représentation informelle d&#39;un objet =====</span>
+
+Pour donner une représentation textuelle informelle à un objet, il suffit de surcharger la méthode spéciale `__str__` :
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod-t
+def __str__(self):
+  return #la chaine qu&#39;on veut afficher
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+_Exemple 1 :_
+
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod
+class point:
+    def __init__(self,a,b):
+        self.x=a
+        self.y=b
+    def __str__(self):
+        return &#39;point&#39; + str((self.x , self.y))
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+<span style="color: #8B008B; font-weight: bold">!bc</span> pyshell
+&gt;&gt;&gt; p = point(2,3)
+&gt;&gt;&gt; p #sans redéfinir __repr__ l&#39;exécution renvoie la référence de l&#39;objet
+&lt;__main__.point object at 0x033DAB10&gt;
+&gt;&gt;&gt; print(p) # l&#39;exécution de print fait appel à la méthode __str__
+point(2,3)
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+_Exemple 2 :_
+
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod
+class point:
+    def __init__(self,a,b):
+        self.x=a
+        self.y=b
+    def __repr__(self):
+        return str((self.x , self.y))
+    def __str__(self):
+        return &#39;point&#39; + str((self.x , self.y))
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+<span style="color: #8B008B; font-weight: bold">!bc</span> pyshell
+&gt;&gt;&gt; p = point(2,3)
+&gt;&gt;&gt; p # l&#39;exécution de l&#39;évaluation de p fait appel à __repr__
+(2,3)
+&gt;&gt;&gt; print(p) # l&#39;exécution de print fait appel à la méthode __str__
+point(2,3)
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+<span style="color: #000080; font-weight: bold">===== Surcharge des opérateurs =====</span>
+La surcharge d&#39;opérateurs permet la redéfinition et l&#39;utilisation des opérateurs en fonction de la classe. Par exemple, l&#39;utilisation de l&#39;opérateur `+` pour additionner deux objets de même type.
+
+Python associe à chaque opérateur une méthode spéciale qu&#39;on peut surcharger, on cite dans la suite quelques
+exemples :
+* Exemples des méthodes spéciales permettant la surcharge des opérateurs arithmétiques :
+ * opérateurs unaires :
+  * `+` : `__pos__(self)`
+  * `-` : `__neg__(self)`
+ * opérateurs binaires :
+  * `+` : `__add__(self,other)`
+  * `*` : `__mul__(self, other)`
+  * `-` : `__sub__(self,other)`
+  * ...
+* Exemples des méthodes spéciales permettant la surcharge des opérateurs de comparaison :
+ * `==` : `__eq__(self,other)`
+ * `!=` : `__ne__(self, other)`
+ * `&gt;` : `__gt__(self,other)`
+ * ...
+* Exemples des méthodes spéciales permettant la surcharge des opérateurs d&#39;indexation :
+ * `objet[i]` : `__getitem__(self,indice)`
+ * `objet[i] = v` : `__setitem__(self,indice,valeur)`
+
+<span style="color: #000080; font-weight: bold">===== Exemple : Classe pour les vecteurs dans le plan =====</span>
+Cette partie explique comment implémenter des vecteurs bidimensionnels en Python de telle sorte que ces vecteurs agissent comme des objets que nous pouvons ajouter, soustraire, former des produits internes avec, et faire d&#39;autres opérations mathématiques.
+
+Les vecteurs dans le plan sont décrits par une paire de nombres réels, $(a,b)$. Il existe des règles mathématiques pour ajouter et soustraire des vecteurs, multiplier deux vecteurs (le produit intérieur ou point ou scalaire), la longueur d&#39;un vecteur, et la multiplication par un scalaire :
+<span style="color: #8B008B; font-weight: bold">!bt</span>
+<span style="color: #658b00">\begin{align}</span>
+(a,b) + (c,d) &amp;= (a+c, b+d),\\
+(a,b) - (c,d) &amp;= (a-c, b-d),\\
+(a,b)\cdot(c,d) &amp;= ac + bd,\\
+||(a,b)|| &amp;= \sqrt{(a,b)\cdot(a,b)}.
+<span style="color: #658b00">\end{align}</span>
+<span style="color: #8B008B; font-weight: bold">!et</span>
+De plus, deux vecteurs $(a,b)$ et $(c,d)$ sont égaux si $a=c$ et $b=d$.
+<span style="color: #000080; font-weight: bold">=== Implémentation ===</span>
+Nous pouvons créer une classe pour les vecteurs de plan où les opérations mathématiques ci-dessus sont mises en œuvre par des méthodes spéciales. La classe doit contenir deux attributs de données, un pour chaque composante du vecteur, appelés `x` et `y` ci-dessous. Nous incluons des méthodes spéciales pour l&#39;addition, la soustraction, le produit scalaire (multiplication), la valeur absolue (longueur), la comparaison de deux vecteurs (`==` et `!=`), ainsi qu&#39;une méthode pour imprimer un vecteur.
+
+<span style="color: #800080; font-weight: bold">@@@CODE scripts/Vec2D.py</span>
+Les méthodes `__add__`, `__sub__`, `__mul__`, `__abs__`, et `__eq__` devraient être assez simples à comprendre d&#39;après les définitions mathématiques précédentes de ces opérations. La dernière méthode mérite un commentaire : ici, nous réutilisons simplement l&#39;opérateur d&#39;égalité `__eq__`, mais nous le faisons précéder d&#39;un non. Nous aurions également pu mettre en oeuvre cette méthode comme :
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod-t
+def __ne__(self, autre):
+        return self.x != other.x or self.y != other.y
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+<span style="color: #000080; font-weight: bold">=== Utilisation ===</span>
+Prenons quelques objets Vec2D :
+<span style="color: #8B008B; font-weight: bold">!bc</span> pyshell
+&gt;&gt;&gt; u = Vec2D(0,1)
+&gt;&gt;&gt; v = Vec2D(1,0)
+&gt;&gt;&gt; w = Vec2D(1,1)
+&gt;&gt;&gt; a = u + v
+&gt;&gt;&gt; print(a)
+(1, 1)
+&gt;&gt;&gt; a == w
+True
+&gt;&gt;&gt; a = u - v
+&gt;&gt;&gt; print(a)
+(-1, 1)
+&gt;&gt;&gt; a = u*v
+&gt;&gt;&gt; print(a)
+0
+&gt;&gt;&gt; print(abs(u))
+1.0
+&gt;&gt;&gt; u == v
+False
+&gt;&gt;&gt; u != v
+True
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+Lorsque vous lisez cette présentation interactive, vous devez vérifier que le calcul est mathématiquement correct, que le type d&#39;objet résultant d&#39;un calcul est correct et que chaque calcul est effectué dans le programme. Ce dernier point est étudié en suivant le déroulement du programme à travers les méthodes de classe. À titre d&#39;exemple, considérons l&#39;expression `u != v`. Il s&#39;agit d&#39;une expression booléenne qui est `True` puisque u et v sont des vecteurs différents. Le type d&#39;objet résultant doit être `bool`, avec des valeurs `True` ou `False`.
+
+<span style="color: #000080; font-weight: bold">======= Héritage et polymorphisme =======</span>
+Un avantage décisif de la POO est qu&#39;une classe Python peut toujours être spécialisée en une classe _fille_ qui _hérite_ alors de tous les attributs (données et méthodes) de sa _super classe_ (classe mère). Comme tous les attributs peuvent être redéfinis, une méthode de la classe fille et de la classe mère peut posséder le même nom, mais effectuer des traitements différents (_surcharge_) et l&#39;objet s&#39;adaptera dynamiquement, dès l&#39;instanciation. En proposant d&#39;utiliser un même nom de méthode pour plusieurs types d&#39;objets différents, le _polymorphisme_ permet une programmation beaucoup plus générique. Le développeur n&#39;a pas à savoir, lorsqu&#39;il programme une méthode, le type précis de l&#39;objet sur lequel la méthode va s&#39;appliquer. Il lui suffit de savoir que cet objet implémentera la méthode.
+
+L&#39;héritage se fait ainsi selon la syntaxe suivante :
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod-t
+class nom_sous_classe(nom_classe_mère):
+  #définir les attributs et les méthodes de la sous_classe
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+<span style="color: #8B008B; font-weight: bold">!bnotice</span>
+L&#39;héritage est le mécanisme qui permet de se servir d&#39;une classe préexistante pour en créer une nouvelle qui possédera des fonctionnalités supplémentaires ou différentes.
+
+Le *polymorphisme* par *dérivation* est la faculté pour deux méthodes (ou plus) portant le même nom, mais appartenant à des classes héritées distinctes d&#39;effectuer un travail différent. Cette propriété est acquise par la technique de la _surcharge_.
+<span style="color: #8B008B; font-weight: bold">!enotice</span>
+
+<span style="color: #000080; font-weight: bold">===== Exemple d&#39;héritage et de polymorphisme =====</span>
+Dans l&#39;exemple suivant, la classe `QuadrupedeDebout` hérite de la classe mère `Quadrupede`, et la méthode `piedsAuContactDuSol()` est polymorphe :
+
+<span style="color: #800080; font-weight: bold">@@@CODE scripts/Quadrupede.py</span>
+
+<span style="color: #658b00">FIGURE: [scripts/classes_Quadrupede, width=150 frac=0.5] Diagramme de classe `Quadrupede` et sa fille `QuadrupedeDebout`.</span>
+
+Voici un test simple de la façon dont ces classes `Quadrupede` et `QuadrupedeDebout` peuvent être utilisées :
+<span style="color: #8B008B; font-weight: bold">!bc</span> pyshell
+&gt;&gt;&gt; chat = Quadrupede()
+&gt;&gt;&gt; chat.piedsAuContactDuSol()
+4
+&gt;&gt;&gt; homme = QuadrupedeDebout()
+&gt;&gt;&gt; homme.piedsAuContactDuSol()
+2
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+<span style="color: #000080; font-weight: bold">=====  Exemple d&#39;héritage et de dérivation =====</span>
+
+La dérivation décrit la création de sous-classes par spécialisation. Elle repose sur la relation « est-un ».
+
+On utilise dans ce cas le mécanisme de l&#39;héritage.
+
+L&#39;implémentation Python utilisée est généralement l&#39;appel à l&#39;initialisateur de la classe parente dans l&#39;initialisateur de la classe dérivée (utilisation de la fonction `super()`).
+
+Dans l&#39;exemple suivant, un _Carre_ « est-un » _Rectangle_ particulier pour lequel on appelle l&#39;initialisateur de la classe mère avec les paramètres `longueur=cote` et `largeur=cote` :
+
+<span style="color: #800080; font-weight: bold">@@@CODE scripts/Rectangle.py</span>
+
+L&#39;utilisation est comme suivant :
+
+<span style="color: #8B008B; font-weight: bold">!bc</span> pyshell
+&gt;&gt;&gt; r = Rectangle()
+&gt;&gt;&gt; c = Carre()
+&gt;&gt;&gt; print(r)
+nom : rectangle
+&gt;&gt;&gt; print(c)
+nom : carré
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+<span style="color: #000080; font-weight: bold">======= Application : Création des classes Pile et File =======</span>
+<span style="color: #000080; font-weight: bold">===== La classe Pile =====</span>
+<span style="color: #000080; font-weight: bold">=== Définition d&#39;une pile ===</span>
+On rappelle qu&#39;une pile est une structure de données qui suit le principe d&#39;une pile d&#39;assiettes, &quot;*le dernier arrivé est le premier sorti*&quot;, on parle du mode _LIFO_ (Last In First Out). L&#39;insertion ou la suppression d&#39;un élément ne peut se faire qu&#39;à une seule extrémité, appelée sommet de la pile.
+
+Une pile est définie par les opérations suivantes :
+* _Empiler_ : permet l&#39;ajout d&#39;un élément au sommet de la pile ;
+* _Dépiler_ : permet la suppression de l&#39;élément au sommet de la pile si elle n&#39;est pas vide ;
+* _Vérifier_ si une pile est vide ou non.
+
+<span style="color: #000080; font-weight: bold">=== Implémentation d&#39;une classe Pile ===</span>
+
+La classe Pile est définie par :
+* L&#39;attribut :
+ * liste : initialisé par une liste vide
+* Les méthodes :
+ * `empiler` : permet l&#39;ajout d&#39;un élément donné à la fin de l&#39;attribut `liste`;
+ * `depiler` : permet de supprimer et retourner le dernier élément de l&#39;attribut `liste` s&#39;il existe;
+ * `est_vide` : permet de vérifier si l&#39;attribut `liste` est vide ou non.
+
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod
+class Pile:
+    def __init__(self) :
+        self.liste=[]
+    def empiler (self, v) :
+        self.liste.append(v)
+    def depiler(self) :
+        if self.est_vide() == False:
+            return self.liste.pop()
+    def est_vide(self) :
+        return self.liste == []
+    def __repr__(self):
+        return (str(self.liste))
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+<span style="color: #000080; font-weight: bold">===== La classe File =====</span>
+<span style="color: #000080; font-weight: bold">=== Définition d&#39;une File ===</span>
+On rappelle qu&#39;une file est une structure de données qui suit le principe d&#39;une file d&#39;attente, &quot;le premier arrivé est le premier sorti&quot;, on parle du mode _FIFO_ (First In First Out).
+
+Une file est définie par les opérations suivantes :
+* _enfiler_ : permet l&#39;ajout d&#39;un élément la fin de la file ;
+* _défiler_ : permet la suppression de l&#39;élément au début de la file si elle n&#39;est pas vide;
+* _vérifier_ si une file est vide ou non.
+
+<span style="color: #000080; font-weight: bold">=== Implémentation d&#39;une classe File ===</span>
+
+La classe File est définie par :
+* L&#39;attribut :
+ * liste : initialisé par une liste vide
+* Les méthodes :
+ * `enfiler` : permet l&#39;ajout d&#39;un élément donné à la fin de l&#39;attribut `liste`;
+ * `defiler` : permet de supprimer et retourner le premier élément de l’attribut `liste` s’il existe;
+ * `est_vide` : permet de vérifier si l&#39;attribut `liste` est vide ou non.
+
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod
+class File:
+    def __init__(self) :
+        self.liste=[]
+    def enfiler (self, v) :
+        self.liste.append(v)
+    def defiler(self) :
+        if self.est_vide() == False:
+              return self.liste.pop(0)
+    def est_vide(self) :
+        return self.liste == []
+    def __repr__(self):
+        return (str(self.liste))
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+<span style="color: #000080; font-weight: bold">===== Exemple d&#39;inversion d&#39;une pile =====</span>
+Il s&#39;agit d’écrire une fonction `Inverser(p)` qui permet d’inverser une pile `p` :
+* avec utilisation d&#39;une file intermédiaire ;
+* sans utilisation d&#39;une file intermédiaire.
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod
+<span style="color: #228B22"># en utilisant une file intermédiaire</span>
+def Inverser(p):
+    f1 = File()
+    while not p.est_vide():
+        f1.enfiler(p.depiler())
+    while not f1.est_vide():
+        p.empiler(f1.defiler())
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+<span style="color: #8B008B; font-weight: bold">!bc</span> pyshell
+&gt;&gt;&gt; p = Pile()
+&gt;&gt;&gt; p.empiler(2)
+&gt;&gt;&gt; p.empiler(6)
+&gt;&gt;&gt; p.empiler(8)
+&gt;&gt;&gt; p
+[2, 6, 8]
+&gt;&gt;&gt; Inverser(p)
+&gt;&gt;&gt; p
+[8, 6, 2]
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+
+
+<span style="color: #8B008B; font-weight: bold">!bc</span> pycod
+<span style="color: #228B22"># sans utiliser une file intermédiaire</span>
+def Inverser(p):
+    p1 = Pile()
+    p2 = Pile()
+    while not p.est_vide():
+        p1.empiler(p.depiler())
+    while not p1.est_vide():
+        p2.empiler(p1.depiler())
+    while not p2.est_vide():
+        p.empiler(p2.depiler())
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+<span style="color: #8B008B; font-weight: bold">!bc</span> pyshell
+&gt;&gt;&gt; print(p)
+[8, 6, 2]
+&gt;&gt;&gt; Inverser(p)
+&gt;&gt;&gt; print(p)
+[2, 6, 8]
+<span style="color: #8B008B; font-weight: bold">!ec</span>
+</pre></div>

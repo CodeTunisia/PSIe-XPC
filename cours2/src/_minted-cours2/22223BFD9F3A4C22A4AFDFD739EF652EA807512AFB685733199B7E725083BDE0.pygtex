@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{n}{nom\PYGZus{}obj} \PYG{o}{=} \PYG{n}{NomClasse}\PYG{p}{(}\PYG{n}{paramètres} \PYG{n}{effectifs} \PYG{n}{du} \PYG{n}{constructeur}\PYG{p}{)}
+\end{Verbatim}

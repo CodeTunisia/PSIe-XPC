@@ -1,0 +1,803 @@
+% !TEX encoding = UTF-8 Unicode
+%%% Template originaly created by Karol Kozioł (mail@karol-koziol.net) and modified for ShareLaTeX use
+\documentclass[a4paper,11pt]{article}
+\usepackage[french]{babel} % English language/hyphenation
+\usepackage{mathptmx} % Use the Adobe Times Roman as the default text font together with math symbols from the Sym­bol, Chancery and Com­puter Modern fonts
+
+\usepackage[T1]{fontenc}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{lipsum} % Inserts dummy text
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{color}
+%%%%%%%%%%%%%%
+%%%% Tables %%
+\usepackage{booktabs}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+
+
+\usepackage{tabu}
+\usepackage{longtable}
+\usepackage[table]{xcolor}
+
+\definecolor{tableHeader}{RGB}{211, 47, 47}
+\definecolor{tableLineOne}{RGB}{245, 245, 245}
+\definecolor{tableLineTwo}{RGB}{224, 224, 224}
+
+\newcommand{\tableHeaderStyle}{
+	\rowfont{\leavevmode\color{white}\bfseries}
+	\rowcolor{tableHeader}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand\familydefault{\sfdefault}
+\usepackage{tgheros}
+%\usepackage[defaultmono]{droidmono}
+
+\usepackage{amsmath,amsfonts,amssymb,amsthm} % For math equations, theorems, symbols, etc
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage[tikz]{bclogo}
+\usepackage{multicol}
+\usepackage{geometry}
+\geometry{total={210mm,297mm},
+left=25mm,right=25mm,%
+bindingoffset=0mm, top=20mm,bottom=20mm}
+\usepackage{url}
+\usepackage[linkbordercolor=blue]{hyperref}
+\author{Ahmed Ammar - IPEST}
+
+
+
+
+\linespread{1.3}
+
+\newcommand{\linia}{\rule{\linewidth}{0.5pt}}
+
+% custom theorems if needed
+\newtheoremstyle{mytheor}
+    {1ex}{1ex}{\normalfont}{0pt}{\scshape}{.}{1ex}
+    {{\thmname{#1 }}{\thmnumber{#2}}{\thmnote{ (#3)}}}
+
+\theoremstyle{mytheor}
+\newtheorem{defi}{Definition}
+
+% my own titles
+\makeatletter
+\renewcommand{\maketitle}{
+\begin{center}
+\vspace{2ex}
+{\huge \textsc{\@title}}
+\vspace{1ex}
+\\
+\linia\\
+\@author \hfill \@date
+\vspace{4ex}
+\end{center}
+}
+\makeatother
+%%%
+
+% custom footers and headers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{}
+\rfoot{Page \thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%%       Algo
+%%%%%%%%%%%%%%%%%%%%%
+
+%\usepackage[ruled,vlined, french]{algorithm2e}
+\usepackage[french]{algorithme}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% CODE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyvrb} % packages needed for verbatim environments
+\usepackage{listingsutf8}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\DeclareFixedFont{\ttb}{T1}{pcr}{bx}{n}{10} % for bold
+\DeclareFixedFont{\ttm}{T1}{pcr}{m}{n}{10}  % for normal
+\lstset{ 
+	backgroundcolor=\color{lightgray!10},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}; should come as last argument
+	basicstyle=\ttm,        % the size of the fonts that are used for the code
+	breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+	breaklines=true,                 % sets automatic line breaking
+	postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{red}\hookrightarrow\space}},
+	captionpos=b,                    % sets the caption-position to bottom
+	commentstyle=\color{mygreen},    % comment style
+	deletekeywords={...},            % if you want to delete keywords from the given language
+	escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+	extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+	firstnumber=1,                % start line enumeration with line 1000
+	frameround=fttt,
+	frame=single,	                   % adds a frame around the code
+	keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+	keywordstyle=\ttb\color{blue},       % keyword style
+	language=Python,                 % the language of the code
+	morekeywords={*,...},            % if you want to add more keywords to the set
+	numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+	numbersep=5pt,                   % how far the line-numbers are from the code
+	numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+	rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+	showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+	showstringspaces=false,          % underline spaces within strings only
+	showtabs=false,                  % show tabs within strings adding particular underscores
+	stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+	stringstyle=\color{mymauve},     % string literal style
+	tabsize=4,	                   % sets default tabsize to 2 spaces
+	title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+
+
+\begin{document}
+\lstset{language=python} % listings
+
+\title{Chapitre 2 : Programmation Orientée Objet}
+
+\maketitle
+\vspace{1cm}
+
+
+\tableofcontents
+
+
+\vspace{1cm} % after toc
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+
+%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%
+\section{Introduction}
+La Programmation Orientée Objet (POO) est une discipline de programmation dans laquelle le programmeur établit :
+\begin{itemize}
+	\item non seulement les structures de données,
+	
+	\item mais aussi les opérations qui peuvent leurs être appliquées.
+\end{itemize}
+
+\noindent
+Ainsi,
+\begin{itemize}
+	\item la structure de données devient un \textbf{objet} qui inclut
+	\begin{itemize}
+		
+		\item Données, appelées \textbf{attributs}
+		
+		\item Opérations, appelées \textbf{méthodes}
+		
+	\end{itemize}
+	
+	\noindent
+	\item Le programmeur peut définir des \textbf{relations} entre les objets
+\end{itemize}
+
+\noindent
+% !split
+\section{Classe et Objet}
+\subsection{Définitions}
+Une \textbf{classe} est équivalente à un nouveau type de données. On connaît déjà par exemple les classes \texttt{list} ou \texttt{str} et les nombreuses méthodes permettant de les manipuler, par exemple :
+\begin{itemize}
+	\item \texttt{[3, 5, 1].sort()}
+	
+	\item \texttt{casse.upper()}
+\end{itemize}
+
+\noindent
+Un \textbf{objet} ou une \textbf{instance} est un exemplaire particulier d'une classe. Par exemple \texttt{[3, 5, 1]} est une instance de la classe \texttt{list} et \texttt{casse} est une instance de la classe \texttt{str}.
+
+Les objets ont généralement deux sortes d'attributs : les données nommées simplement \textbf{attributs} et les fonctions applicables appelées \textbf{méthodes}.
+
+Par exemple un objet de la classe \texttt{complex} possède :
+\begin{itemize}
+	\item deux attributs : \texttt{imag} et \texttt{real} ;
+	
+	\item plusieurs méthodes, comme \texttt{conjugate()}, \texttt{abs()}...
+\end{itemize}
+
+\noindent
+La plupart des classes encapsulent à la fois les données et les méthodes applicables aux objets. Par exemple un objet \texttt{str} contient une chaîne de caractères Unicode (les données) et de nombreuses méthodes.
+
+On peut définir un \emph{objet} comme une \emph{capsule} contenant des \textbf{attributs} et des \textbf{méthodes}.
+
+\subsection{Création de classe en Python}
+Une nouvelle classe est définie par le mot-clé \texttt{class}.
+
+\textbf{Syntaxe de la création :}
+
+\begin{lstlisting}
+class NomDeLaClasse:
+	# Définition des attributs de la classe
+	nom_attr = valeur # attribut de valeur commune pour toutes les instances
+	...
+	# Définition des attributs d'objet (chaque instance a sa propre valeur)
+	def __init__(self, parametres): # le constructeur de l'objet
+		self.nomattr1= v1
+		self.nomattr2= v2
+		...
+		
+	# Définition des méthodes
+		def nom_methode(self, autres_parametres):
+		# Corps de la méthode
+\end{lstlisting}
+\noindent
+
+
+Une classe permet de définir (déclarer) l'ensemble attributs et méthodes relatives à une catégorie d'objets.
+\begin{itemize}
+	\item \textbf{Attributs de classe :} Un attribut de classe est défini au niveau de la classe et sa valeur est partagée par tous les objets instanciés de cette classe. L'accès à l'attribut est donné par : \Verb!NomDeLaClasse.nom_attribut!
+	
+	\item \textbf{Attributs d'objets :} Un attribut d'objet est défini au niveau de la méthode constructeur. La valeur d'un attribut d'objet est propre à chaque objet. L'accès à l'attribut est donné par : \Verb!nom_Objet.nom_attribut!
+	
+	\item \textbf{Le constructeur d'objet :} Le constructeur est une méthode particulière appelée lors de la création d'un nouvel objet permettant d'initialiser ses attributs. Le constructeur se définit dans une classe comme une fonction avec deux particularités~:
+	\begin{itemize}
+		
+		\item le nom de la méthode doit être \Verb!__init__! ;
+		
+		\item la méthode doit accepter au moins un paramètre de nom \texttt{self} qui apparaît en premier.
+		
+	\end{itemize}
+	
+	\noindent
+	\item \textbf{Le paramètre self :} Le paramètre \texttt{self} représente en fait l'objet cible, c'est-à-dire que c'est une variable qui référence l'objet en cours de création et permettant d'accéder à ses attributs et fonctionnalités.
+	
+	\item \textbf{Les méthodes :} Une méthode est une fonction qui agit principalement sur une instance de la classe. Elle doit accepter au moins le paramètre \texttt{self} figurant en première position. L'appel d'une méthode se fait par : \Verb!nom_Objet.nom_méthode(autres paramètres)!
+\end{itemize}
+
+\noindent
+\subsection{Exemple : Une classe pour comptes bancaires}
+
+Le concept de compte bancaire dans un programme est un bon candidat pour un cours. Le compte comporte certaines données, généralement le nom du titulaire du compte, le numéro de compte et le solde courant. Trois choses que l'on peut faire avec un compte, c'est retirer de l'argent, mettre de l'argent sur le compte et imprimer les données du compte. Ces actions sont modélisées par des méthodes. Avec une classe, nous pouvons regrouper les données et les actions dans un nouveau type de données de sorte qu'un compte corresponde à une variable d'un programme.
+
+Elle est créée ainsi :
+
+\lstinputlisting{scripts/class.py}
+\noindent
+
+\begin{tabular}{ll}	
+	\begin{minipage}{.5\linewidth}
+		La classe \texttt{CompteBancaire} définie par:
+		\begin{itemize}
+			\item \textbf{Les attributs:}
+			\begin{itemize}
+				
+				\item Attributs de classe : \texttt{nomBanque} (nom de la banque);
+				
+				\item Attributs d'objet : \texttt{no} (numéro du compte), \texttt{nom} (nom du propriétaire) et \texttt{sold} (solde).
+				
+			\end{itemize}
+			
+			\noindent
+			\item \textbf{Les méthodes :} \texttt{depot}, \texttt{decharge} et \texttt{retrait}.
+		\end{itemize}
+		
+	\end{minipage}
+	&
+	\begin{minipage}{.4\linewidth}
+		\begin{center}
+			\includegraphics[width=0.9\linewidth]{scripts/classes_CompteBancaire.pdf}
+			\captionof{figure}{Diagramme de classe \texttt{CompteBancaire}.}
+		\end{center}
+	\end{minipage}
+\end{tabular}\\
+
+\subsection{Création d'objets en Python}
+La création d'une \textbf{instance} (objet) d'une classe donnée se fait par un appel au nom de la classe avec les paramètres effectifs du constructeur, selon la syntaxe suivante :
+\begin{Verbatim}
+>>> nom_obj = NomClasse(paramètres effectifs du constructeur)
+\end{Verbatim}
+
+Voici un test simple de la façon dont la classe \texttt{CompteBancaire} peut être utilisée :
+\begin{Verbatim}[frame=leftline, framerule=1.5mm, rulecolor=\color{blue}]
+>>> c1 = CompteBancaire('Mohamed Ahmed', '19371554951', 20000)
+>>> c2 = CompteBancaire('Ali Tounsi',  '19371564761', 10000)
+>>> c1.depot(1000)
+>>> c1.retrait(4000)
+>>> c2.retrait(8750)
+>>> c1.retrait(1250)
+>>> print("le solde de c1 : ", c1.sold)
+le solde de c1 :  15750
+>>> c1.decharge()
+Mohamed Ahmed, 19371554951, solde : 15750
+\end{Verbatim}
+\noindent
+
+\subsection{Constructeur}
+
+Les constructeurs sont généralement utilisés pour \textbf{instancier un objet}. La tâche des constructeurs consiste à initialiser (attribuer des valeurs) aux attributs de la classe lorsqu'un objet de la classe est créé.
+
+En Python, la méthode \Verb!__init__()! est appelée le constructeur et est toujours appelée. quand un objet est créé.
+
+\textbf{Types de constructeurs :}
+
+\begin{itemize}
+	\item \textbf{Constructeur par défaut} : le constructeur par défaut est un constructeur simple qui n’accepte aucun argument. Sa définition n’a qu’un seul argument qui soit une référence à l’instance en cours de construction.
+	
+	\item \textbf{Constructeur paramétré} : Le constructeur paramétré prend son premier argument en tant que référence à l'instance en cours de construction, appelée self, et le reste des arguments est fourni par le programmeur.
+\end{itemize}
+
+\noindent
+En python, on ne peut définir qu'un seul constructeur :
+
+\lstinputlisting{scripts/Personne.py}
+\noindent
+
+\subsection{Destructeur}
+Les destructeurs sont appelés lorsqu'un objet est détruit. En Python, les destructeurs ne sont pas aussi nécessaires que en d'autres langages de programmation, car Python dispose d'un \textbf{ramasse-miettes} qui gère automatiquement la gestion de la mémoire.
+
+La méthode \Verb!__del __()! est une méthode appelée \textbf{destructeur} en Python. Il est appelé lorsque toutes les références à l’objet ont été supprimées, c’est-à-dire lorsqu’un objet est nettoyé.
+
+\textbf{Exemple 1 : Classe Tableau :}
+
+Voici un exemple simple de destructeur :
+\lstinputlisting{scripts/Tableau.py}
+\noindent
+En utilisant le mot-clé \texttt{del}, nous avons supprimé toutes les références de l’objet \texttt{tab}. Le destructeur est donc invoqué automatiquement.
+\begin{Verbatim}[frame=leftline, framerule=1.5mm, rulecolor=\color{blue}]
+>>> tab = Tableau()
+>>> del tab
+je suis le destructeur
+\end{Verbatim}
+\noindent
+
+\begin{bclogo}[logo=\bcinfo, couleurBarre=orange, noborder=true, couleur=orange!10]{Note}
+Le destructeur est appeler à la fin du programme ou lorsque toutes les références à l'objet ont été supprimées. C'est-à-dire que le nombre de références devient zéro, et non lorsque l'objet est sorti de la portée.
+\end{bclogo}
+
+\textbf{Exemple 2 : Classe Personne :}
+
+Cet exemple donne une explication de la note.
+
+\lstinputlisting{scripts/Personne.py}
+
+\begin{lstlisting}
+def creation():
+	print("creation de l'objet")
+	p = Personne('TOUNSI','Mohamed')
+	print('fin de la création')
+	return p
+
+print("Début du programme")
+p1=creation()
+print("Je suis {} {}, je suis un objet d'ID : {}".format(p1.nom, p1.prenom, id(p1)))
+print("fin du programme")
+del p1
+\end{lstlisting}
+
+Notez que le destructeur est appelé après l'affichage de \emph{"Fin du programme..."}
+
+\section{Méthodes spéciales et surcharge des opérateurs}
+Certaines méthodes de classe ont des noms qui commencent et se terminent par un double trait de soulignement. Ces méthodes permettent une syntaxe spéciale dans le programme et sont appelées \textbf{méthodes spéciales}. Le constructeur \Verb!__init__()! en est un exemple. Cette méthode est automatiquement appelée lorsqu'une instance est créée, mais nous n'avons pas besoin d'écrire explicitement \Verb!__init__()!. D'autres méthodes spéciales permettent d'effectuer des opérations arithmétiques avec des instances, de comparer des instances avec \texttt{>}, \texttt{>=}, \Verb?!=?, etc., d'appeler des instances comme nous appelons les fonctions ordinaires, et de tester si une instance évalue à Vrai ou Faux, pour mentionner certaines possibilités.
+
+La \textbf{surcharge} permet à un opérateur de \textbf{posséder un sens différent} suivant le \textbf{type} de ses opérandes.
+
+Par exemple, l'opérateur \texttt{+} permet :
+\begin{lstlisting}
+x = 7 + 9 # addition entière
+s = 'ab' + 'cd' # concaténation
+\end{lstlisting}
+
+Python possède des méthodes de surcharge pour :
+\begin{itemize}
+\item tous les types (\Verb!__call__!, \Verb!__str__! ...) ;
+
+\item les nombres (\Verb!__add__!, \Verb!__div__! ...) ;
+
+\item les séquences (\Verb!__len__!, \Verb!__iter__! ...).
+\end{itemize}
+
+
+\subsection{Surcharge de l'appel fonctionnel}
+La méthode \Verb!__call__! permet aux programmeurs Python d'écrire des classes dont les instances se comportent comme des fonctions et peuvent être appelées comme une fonction. Lorsque l'instance est appelée comme une fonction ; si cette méthode est définie, \texttt{objet(arg1, arg2, ...)} est une abréviation de \Verb!objet.__call__(arg1, arg2, ...)!.
+
+\textbf{Exemple :}
+
+\lstinputlisting{scripts/Produit.py}
+
+\subsection{Représentation formelle d'un objet}
+
+Pour afficher les informations relatives à un objet, en utilisant le nom de l'objet (représentation sur le shell) ou en utilisant la commande \texttt{print()} , il faut surcharger la méthode spéciale \Verb!__repr__! :
+\begin{lstlisting}
+def __repr__(self):
+	return #la chaine qu'on veut afficher
+\end{lstlisting}
+
+\textbf{Exemple :}
+
+\begin{lstlisting}
+class point:
+	def __init__(self,a,b):
+		self.x=a
+		self.y=b
+	def __repr__(self):
+		return (str((self.x , self.y)))
+\end{lstlisting}
+
+	
+\begin{Verbatim}[frame=leftline, framerule=1.5mm, rulecolor=\color{blue}]
+>>> p=point(2,3)
+>>> p # l'exécution de l'évaluation de p fait appel à __repr__
+(2,3)
+>>> print(p) # l'exécution de print fait appel à la méthode __repr__
+(2,3)
+\end{Verbatim}
+
+\subsection{Représentation informelle d'un objet}
+
+Pour donner une représentation textuelle informelle à un objet, il suffit de surcharger la méthode spéciale \Verb!__str__! :
+\begin{lstlisting}
+def __str__(self):
+	return #la chaine qu'on veut afficher
+\end{lstlisting}
+
+\textbf{Exemple 1 :}
+
+\begin{lstlisting}
+class point:
+	def __init__(self,a,b):
+		self.x=a
+		self.y=b
+	def __str__(self):
+		return 'point' + str((self.x , self.y))
+\end{lstlisting}
+
+\begin{Verbatim}[frame=leftline, framerule=1.5mm, rulecolor=\color{blue}]
+>>> p = point(2,3)
+>>> p #sans redéfinir __repr__ l'exécution renvoie la référence de l'objet
+<__main__.point object at 0x033DAB10>
+>>> print(p) # l'exécution de print fait appel à la méthode __str__
+point(2,3)
+\end{Verbatim}
+
+\textbf{Exemple 2 :}
+
+\begin{lstlisting}
+class point:
+	def __init__(self,a,b):
+		self.x=a
+		self.y=b
+	def __repr__(self):
+		return str((self.x , self.y))
+	def __str__(self):
+		return 'point' + str((self.x , self.y))
+\end{lstlisting}
+
+
+
+\begin{Verbatim}[frame=leftline, framerule=1.5mm, rulecolor=\color{blue}]
+>>> p = point(2,3)
+>>> p # l'exécution de l'évaluation de p fait appel à __repr__
+(2,3)
+>>> print(p) # l'exécution de print fait appel à la méthode __str__
+point(2,3)
+\end{Verbatim}
+
+\subsection{Surcharge des opérateurs}
+La surcharge d'opérateurs permet la redéfinition et l'utilisation des opérateurs en fonction de la classe. Par exemple, l'utilisation de l'opérateur \texttt{+} pour additionner deux objets de même type.
+
+Python associe à chaque opérateur une méthode spéciale qu'on peut surcharger, on cite dans la suite quelques
+exemples :
+\begin{itemize}
+	\item Exemples des méthodes spéciales permettant la surcharge des opérateurs arithmétiques :
+	\begin{itemize}
+		
+		\item opérateurs unaires :
+		\begin{itemize}
+			
+			\item \texttt{+} : \Verb!__pos__(self)!
+			
+			\item \texttt{-} : \Verb!__neg__(self)!
+			
+		\end{itemize}
+		
+		\noindent
+		\item opérateurs binaires :
+		\begin{itemize}
+			
+			\item \texttt{+} : \Verb!__add__(self,other)!
+			
+			\item \texttt{*} : \Verb!__mul__(self, other)!
+			
+			\item \texttt{-} : \Verb!__sub__(self,other)!
+			
+			\item ...
+			
+		\end{itemize}
+		
+		\noindent
+	\end{itemize}
+	
+	\noindent
+	\item Exemples des méthodes spéciales permettant la surcharge des opérateurs de comparaison :
+	\begin{itemize}
+		
+		\item \texttt{==} : \Verb!__eq__(self,other)!
+		
+		\item \Verb?!=? : \Verb!__ne__(self, other)!
+		
+		\item \texttt{>} : \Verb!__gt__(self,other)!
+		
+		\item ...
+		
+	\end{itemize}
+	
+	\noindent
+	\item Exemples des méthodes spéciales permettant la surcharge des opérateurs d'indexation :
+	\begin{itemize}
+		
+		\item \texttt{objet[i]} : \Verb!__getitem__(self,indice)!
+		
+		\item \texttt{objet[i] = v} : \Verb!__setitem__(self,indice,valeur)!
+	\end{itemize}
+	
+	\noindent
+\end{itemize}
+
+\noindent
+\subsection{Exemple : Classe pour les vecteurs dans le plan}
+Cette partie explique comment implémenter des vecteurs bidimensionnels en Python de telle sorte que ces vecteurs agissent comme des objets que nous pouvons ajouter, soustraire, former des produits internes avec, et faire d'autres opérations mathématiques.
+
+Les vecteurs dans le plan sont décrits par une paire de nombres réels, $(a,b)$. Il existe des règles mathématiques pour ajouter et soustraire des vecteurs, multiplier deux vecteurs (le produit intérieur ou point ou scalaire), la longueur d'un vecteur, et la multiplication par un scalaire :
+\begin{align}
+(a,b) + (c,d) &= (a+c, b+d),\\
+(a,b) - (c,d) &= (a-c, b-d),\\
+(a,b)\cdot(c,d) &= ac + bd,\\
+||(a,b)|| &= \sqrt{(a,b)\cdot(a,b)}.
+\end{align}
+De plus, deux vecteurs $(a,b)$ et $(c,d)$ sont égaux si $a=c$ et $b=d$.
+\paragraph{Implémentation.}
+Nous pouvons créer une classe pour les vecteurs de plan où les opérations mathématiques ci-dessus sont mises en œuvre par des méthodes spéciales. La classe doit contenir deux attributs de données, un pour chaque composante du vecteur, appelés \texttt{x} et \texttt{y} ci-dessous. Nous incluons des méthodes spéciales pour l'addition, la soustraction, le produit scalaire (multiplication), la valeur absolue (longueur), la comparaison de deux vecteurs (\texttt{==} et \Verb?!=?), ainsi qu'une méthode pour imprimer un vecteur.
+
+\lstinputlisting{scripts/Vec2D.py}
+
+Les méthodes \Verb!__add__!, \Verb!__sub__!, \Verb!__mul__!, \Verb!__abs__!, et \Verb!__eq__! devraient être assez simples à comprendre d'après les définitions mathématiques précédentes de ces opérations. La dernière méthode mérite un commentaire : ici, nous réutilisons simplement l'opérateur d'égalité \Verb!__eq__!, mais nous le faisons précéder d'un non. Nous aurions également pu mettre en oeuvre cette méthode comme :
+
+\begin{lstlisting}
+def __ne__(self, autre):
+	return self.x != other.x or self.y != other.y
+\end{lstlisting}
+
+
+\paragraph{Utilisation.}
+Prenons quelques objets Vec2D :
+\begin{Verbatim}[frame=leftline, framerule=1.5mm, rulecolor=\color{blue}]
+>>> u = Vec2D(0,1)
+>>> v = Vec2D(1,0)
+>>> w = Vec2D(1,1)
+>>> a = u + v
+>>> print(a)
+(1, 1)
+>>> a == w
+True
+>>> a = u - v
+>>> print(a)
+(-1, 1)
+>>> a = u*v
+>>> print(a)
+0
+>>> print(abs(u))
+1.0
+>>> u == v
+False
+>>> u != v
+True
+\end{Verbatim}
+
+Lorsque vous lisez cette présentation interactive, vous devez vérifier que le calcul est mathématiquement correct, que le type d'objet résultant d'un calcul est correct et que chaque calcul est effectué dans le programme. Ce dernier point est étudié en suivant le déroulement du programme à travers les méthodes de classe. À titre d'exemple, considérons l'expression \Verb?u != v?. Il s'agit d'une expression booléenne qui est \texttt{True} puisque u et v sont des vecteurs différents. Le type d'objet résultant doit être \texttt{bool}, avec des valeurs \texttt{True} ou \texttt{False}.
+
+\section{Héritage et polymorphisme}
+Un avantage décisif de la POO est qu'une classe Python peut toujours être spécialisée en une classe \textbf{fille} qui \textbf{hérite} alors de tous les attributs (données et méthodes) de sa \textbf{super classe} (classe mère). Comme tous les attributs peuvent être redéfinis, une méthode de la classe fille et de la classe mère peut posséder le même nom, mais effectuer des traitements différents (\textbf{surcharge}) et l'objet s'adaptera dynamiquement, dès l'instanciation. En proposant d'utiliser un même nom de méthode pour plusieurs types d'objets différents, le \textbf{polymorphisme} permet une programmation beaucoup plus générique. Le développeur n'a pas à savoir, lorsqu'il programme une méthode, le type précis de l'objet sur lequel la méthode va s'appliquer. Il lui suffit de savoir que cet objet implémentera la méthode.
+
+L'héritage se fait ainsi selon la syntaxe suivante :
+
+\begin{lstlisting}
+class nom_sous_classe(nom_classe_mère):
+	#définir les attributs et les méthodes de la sous_classe
+\end{lstlisting}
+
+
+\begin{bclogo}[logo=\bcinfo, couleurBarre=orange, noborder=true, couleur=orange!10]{Note}
+L'héritage est le mécanisme qui permet de se servir d'une classe préexistante pour en créer une nouvelle qui possédera des fonctionnalités supplémentaires ou différentes.
+
+Le \emph{polymorphisme} par \emph{dérivation} est la faculté pour deux méthodes (ou plus) portant le même nom, mais appartenant à des classes héritées distinctes d'effectuer un travail différent. Cette propriété est acquise par la technique de la \textbf{surcharge}.
+\end{bclogo}
+
+
+
+\subsection{Exemple d'héritage et de polymorphisme}
+Dans l'exemple suivant, la classe \texttt{QuadrupedeDebout} hérite de la classe mère \texttt{Quadrupede}, et la méthode \texttt{piedsAuContactDuSol()} est polymorphe :
+
+\lstinputlisting{scripts/Quadrupede.py}
+
+
+\begin{figure}[!ht]  % 
+	\centerline{\includegraphics[width=0.45\linewidth]{scripts/classes_Quadrupede.pdf}}
+	\caption{
+		Diagramme de classe \texttt{Quadrupede} et sa fille \texttt{QuadrupedeDebout}.
+	}
+\end{figure}
+
+
+Voici un test simple de la façon dont ces classes \texttt{Quadrupede} et \texttt{QuadrupedeDebout} peuvent être utilisées :
+\begin{Verbatim}[frame=leftline, framerule=1.5mm, rulecolor=\color{blue}]
+>>> chat = Quadrupede()
+>>> chat.piedsAuContactDuSol()
+4
+>>> homme = QuadrupedeDebout()
+>>> homme.piedsAuContactDuSol()
+2
+\end{Verbatim}
+
+\subsection{Exemple d'héritage et de dérivation}
+
+La dérivation décrit la création de sous-classes par spécialisation. Elle repose sur la relation « est-un ».
+
+On utilise dans ce cas le mécanisme de l'héritage.
+
+L'implémentation Python utilisée est généralement l'appel à l'initialisateur de la classe parente dans l'initialisateur de la classe dérivée (utilisation de la fonction \texttt{super()}).
+
+Dans l'exemple suivant, un \textbf{Carre} « est-un » \textbf{Rectangle} particulier pour lequel on appelle l'initialisateur de la classe mère avec les paramètres \texttt{longueur=cote} et \texttt{largeur=cote} :
+
+\lstinputlisting{scripts/Rectangle.py}
+
+L'utilisation est comme suivant :
+
+\begin{Verbatim}[frame=leftline, framerule=1.5mm, rulecolor=\color{blue}]
+>>> r = Rectangle()
+>>> c = Carre()
+>>> print(r)
+nom : rectangle
+>>> print(c)
+nom : carré
+\end{Verbatim}
+
+\section{Application : Création des classes Pile et File}
+\subsection{La classe Pile}
+\paragraph{Définition d'une pile.}
+On rappelle qu'une pile est une structure de données qui suit le principe d'une pile d'assiettes, "*le dernier arrivé est le premier sorti*", on parle du mode \textbf{LIFO} (Last In First Out). L'insertion ou la suppression d'un élément ne peut se faire qu'à une seule extrémité, appelée sommet de la pile.
+
+Une pile est définie par les opérations suivantes :
+\begin{itemize}
+	\item \textbf{Empiler} : permet l'ajout d'un élément au sommet de la pile ;
+	
+	\item \textbf{Dépiler} : permet la suppression de l'élément au sommet de la pile si elle n'est pas vide ;
+	
+	\item \textbf{Vérifier} si une pile est vide ou non.
+\end{itemize}
+
+\noindent
+\paragraph{Implémentation d'une classe Pile.}
+La classe Pile est définie par :
+\begin{itemize}
+	\item L'attribut :
+	\begin{itemize}
+		
+		\item liste : initialisé par une liste vide
+		
+	\end{itemize}
+	
+	\noindent
+	\item Les méthodes :
+	\begin{itemize}
+		
+		\item \texttt{empiler} : permet l'ajout d'un élément donné à la fin de l'attribut \texttt{liste};
+		
+		\item \texttt{depiler} : permet de supprimer et retourner le dernier élément de l'attribut \texttt{liste} s'il existe;
+		
+		\item \Verb!est_vide! : permet de vérifier si l'attribut \texttt{liste} est vide ou non.
+	\end{itemize}
+	
+	\noindent
+\end{itemize}
+
+\lstinputlisting{scripts/Pile.py}
+
+\subsection{La classe File}
+\paragraph{Définition d'une File.}
+On rappelle qu'une file est une structure de données qui suit le principe d'une file d'attente, "le premier arrivé est le premier sorti", on parle du mode \textbf{FIFO} (First In First Out).
+
+Une file est définie par les opérations suivantes :
+\begin{itemize}
+	\item \textbf{enfiler} : permet l'ajout d'un élément la fin de la file ;
+	
+	\item \textbf{défiler} : permet la suppression de l'élément au début de la file si elle n'est pas vide;
+	
+	\item \textbf{vérifier} si une file est vide ou non.
+\end{itemize}
+
+\noindent
+\paragraph{Implémentation d'une classe File.}
+La classe File est définie par :
+\begin{itemize}
+	\item L'attribut :
+	\begin{itemize}
+		
+		\item liste : initialisé par une liste vide
+		
+	\end{itemize}
+	
+	\noindent
+	\item Les méthodes :
+	\begin{itemize}
+		
+		\item \texttt{enfiler} : permet l'ajout d'un élément donné à la fin de l'attribut \texttt{liste};
+		
+		\item \texttt{defiler} : permet de supprimer et retourner le premier élément de l’attribut \texttt{liste} s’il existe;
+		
+		\item \Verb!est_vide! : permet de vérifier si l'attribut \texttt{liste} est vide ou non.
+	\end{itemize}
+	
+	\noindent
+\end{itemize}
+
+\lstinputlisting{scripts/File.py}
+
+\subsection{Exemple d'inversion d'une pile}
+Il s'agit d’écrire une fonction \texttt{Inverser(p)} qui permet d’inverser une pile \texttt{p} :
+\begin{itemize}
+	\item avec utilisation d'une file intermédiaire ;
+	
+	\item sans utilisation d'une file intermédiaire.
+\end{itemize}
+
+
+\begin{lstlisting}
+# en utilisant une file intermédiaire
+def Inverser(p):
+	f1 = File()
+	while not p.est_vide():
+		f1.enfiler(p.depiler())
+	while not f1.est_vide():
+		p.empiler(f1.defiler())
+\end{lstlisting}
+
+
+\begin{Verbatim}[frame=leftline, framerule=1.5mm, rulecolor=\color{blue}]
+>>> p = Pile()
+>>> p.empiler(2)
+>>> p.empiler(6)
+>>> p.empiler(8)
+>>> p
+[2, 6, 8]
+>>> Inverser(p)
+>>> p
+[8, 6, 2]
+\end{Verbatim}
+
+\begin{lstlisting}
+# sans utiliser une file intermédiaire
+def Inverser(p):
+	p1 = Pile()
+	p2 = Pile()
+	while not p.est_vide():
+		p1.empiler(p.depiler())
+	while not p1.est_vide():
+		p2.empiler(p1.depiler())
+	while not p2.est_vide():
+		p.empiler(p2.depiler())
+\end{lstlisting}
+
+
+\begin{Verbatim}[frame=leftline, framerule=1.5mm, rulecolor=\color{blue}]
+>>> print(p)
+[8, 6, 2]
+>>> Inverser(p)
+>>> print(p)
+[2, 6, 8]
+\end{Verbatim}
+
+\end{document}
+

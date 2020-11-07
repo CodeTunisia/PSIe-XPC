@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k}{class} \PYG{n+nc}{Rectangle}\PYG{p}{:}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{longueur}\PYG{o}{=}\PYG{l+m+mi}{30}\PYG{p}{,} \PYG{n}{largeur}\PYG{o}{=}\PYG{l+m+mi}{15}\PYG{p}{):}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{L}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{l} \PYG{o}{=} \PYG{n}{longueur}\PYG{p}{,} \PYG{n}{largeur}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{nom} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}rectangle\PYGZdq{}}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}str\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{k}{return} \PYG{l+s+s2}{\PYGZdq{}nom : }\PYG{l+s+si}{\PYGZob{}\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{o}{.}\PYG{n}{format}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{nom}\PYG{p}{)}
+
+\PYG{k}{class} \PYG{n+nc}{Carre}\PYG{p}{(}\PYG{n}{Rectangle}\PYG{p}{):} \PYG{c+c1}{\PYGZsh{} héritage simple}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    Sous\PYGZhy{}classe spécialisée de la super\PYGZhy{}classe Rectangle.}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{cote}\PYG{o}{=}\PYG{l+m+mi}{20}\PYG{p}{):}
+        \PYG{c+c1}{\PYGZsh{} appel au constructeur de la super\PYGZhy{}classe de Carre :}
+        \PYG{n+nb}{super}\PYG{p}{()}\PYG{o}{.}\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n}{cote}\PYG{p}{,} \PYG{n}{cote}\PYG{p}{)}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{nom} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}carré\PYGZdq{}} \PYG{c+c1}{\PYGZsh{} surcharge d\PYGZsq{}attribut}
+\end{Verbatim}

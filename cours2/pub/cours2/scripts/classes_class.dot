@@ -1,0 +1,5 @@
+digraph "classes_class" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{Account|balance\lname\lno\lnombank : str\l|deposit(amount)\ldump()\lwithdraw(amount)\l}", shape="record"];
+}

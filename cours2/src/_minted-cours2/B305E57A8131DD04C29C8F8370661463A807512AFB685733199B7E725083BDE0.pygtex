@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k}{class} \PYG{n+nc}{Personne}\PYG{p}{:}
+
+    \PYG{c+c1}{\PYGZsh{} constructeur de la classe}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{nom}\PYG{p}{,} \PYG{n}{prenom}\PYG{p}{):}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{nom} \PYG{o}{=} \PYG{n}{nom}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{prenom} \PYG{o}{=} \PYG{n}{prenom}
+
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}del\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}je suis le destructeur\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k}{class} \PYG{n+nc}{nom\PYGZus{}sous\PYGZus{}classe}\PYG{p}{(}\PYG{n}{nom\PYGZus{}classe\PYGZus{}mère}\PYG{p}{):}
+  \PYG{c+c1}{\PYGZsh{}définir les attributs et les méthodes de la sous\PYGZus{}classe}
+\end{Verbatim}

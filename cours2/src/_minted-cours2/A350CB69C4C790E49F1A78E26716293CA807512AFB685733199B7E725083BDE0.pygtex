@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k}{class} \PYG{n+nc}{Tableau}\PYG{p}{:}
+    \PYG{n}{donnee}\PYG{o}{=}\PYG{p}{[]}
+    \PYG{c+c1}{\PYGZsh{} constructeur de la classe}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{c+c1}{\PYGZsh{}initialiser le tableau avec 100 éléments}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{donnee}\PYG{o}{=}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{*}\PYG{l+m+mi}{100}
+
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}del\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}je suis le destructeur\PYGZdq{}}\PYG{p}{)}
+        \PYG{c+c1}{\PYGZsh{} vider le tableau}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{donnee}\PYG{o}{.}\PYG{n}{clear}\PYG{p}{()}
+\end{Verbatim}

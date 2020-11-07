@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+c1}{\PYGZsh{} en utilisant une file intermédiaire}
+\PYG{k}{def} \PYG{n+nf}{Inverser}\PYG{p}{(}\PYG{n}{p}\PYG{p}{):}
+    \PYG{n}{f1} \PYG{o}{=} \PYG{n}{File}\PYG{p}{()}
+    \PYG{k}{while} \PYG{o+ow}{not} \PYG{n}{p}\PYG{o}{.}\PYG{n}{est\PYGZus{}vide}\PYG{p}{():}
+        \PYG{n}{f1}\PYG{o}{.}\PYG{n}{enfiler}\PYG{p}{(}\PYG{n}{p}\PYG{o}{.}\PYG{n}{depiler}\PYG{p}{())}
+    \PYG{k}{while} \PYG{o+ow}{not} \PYG{n}{f1}\PYG{o}{.}\PYG{n}{est\PYGZus{}vide}\PYG{p}{():}
+        \PYG{n}{p}\PYG{o}{.}\PYG{n}{empiler}\PYG{p}{(}\PYG{n}{f1}\PYG{o}{.}\PYG{n}{defiler}\PYG{p}{())}
+\end{Verbatim}

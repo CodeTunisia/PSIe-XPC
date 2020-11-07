@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k}{class} \PYG{n+nc}{Quadrupede}\PYG{p}{:}
+    \PYG{k}{def} \PYG{n+nf}{piedsAuContactDuSol}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{k}{return} \PYG{l+m+mi}{4}
+
+\PYG{k}{class} \PYG{n+nc}{QuadrupedeDebout}\PYG{p}{(}\PYG{n}{Quadrupede}\PYG{p}{):}
+    \PYG{k}{def} \PYG{n+nf}{piedsAuContactDuSol}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{k}{return} \PYG{l+m+mi}{2}
+\end{Verbatim}

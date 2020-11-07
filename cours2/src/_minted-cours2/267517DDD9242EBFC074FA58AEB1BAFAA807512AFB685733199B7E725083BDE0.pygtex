@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k}{class} \PYG{n+nc}{Produit}\PYG{p}{:}
+	\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Création de l\PYGZsq{}instance\PYGZdq{}}\PYG{p}{)}
+
+	\PYG{c+c1}{\PYGZsh{} Définir la méthode \PYGZus{}\PYGZus{}call\PYGZus{}\PYGZus{}.}
+	\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}call\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{a}\PYG{p}{,} \PYG{n}{b}\PYG{p}{):}
+		\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{a} \PYG{o}{*} \PYG{n}{b}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Création de l\PYGZsq{}instance}
+\PYG{n}{ans} \PYG{o}{=} \PYG{n}{Produit}\PYG{p}{()}
+
+\PYG{c+c1}{\PYGZsh{} La méthode \PYGZus{}\PYGZus{}call\PYGZus{}\PYGZus{} sera appelée}
+\PYG{n}{ans}\PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{,} \PYG{l+m+mi}{20}\PYG{p}{)}
+\end{Verbatim}

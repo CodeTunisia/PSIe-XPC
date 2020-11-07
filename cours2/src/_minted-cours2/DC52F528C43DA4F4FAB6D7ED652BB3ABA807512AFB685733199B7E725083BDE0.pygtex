@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k}{class} \PYG{n+nc}{NomDeLaClasse}\PYG{p}{:}
+  \PYG{c+c1}{\PYGZsh{} Définition des attributs de la classe}
+  \PYG{n}{nom\PYGZus{}attr} \PYG{o}{=} \PYG{n}{valeur} \PYG{c+c1}{\PYGZsh{} attribut de valeur commune pour toutes les instances}
+  \PYG{o}{...}
+  \PYG{c+c1}{\PYGZsh{} Définition des attributs d\PYGZsq{}objet (chaque instance a sa propre valeur)}
+  \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{parametres}\PYG{p}{):} \PYG{c+c1}{\PYGZsh{} le constructeur de l\PYGZsq{}objet}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{nomattr1}\PYG{o}{=} \PYG{n}{v1}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{nomattr2}\PYG{o}{=} \PYG{n}{v2}
+    \PYG{o}{...}
+
+  \PYG{c+c1}{\PYGZsh{} Définition des méthodes}
+  \PYG{k}{def} \PYG{n+nf}{nom\PYGZus{}methode}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{autres\PYGZus{}parametres}\PYG{p}{):}
+    \PYG{c+c1}{\PYGZsh{} Corps de la méthode}
+\end{Verbatim}

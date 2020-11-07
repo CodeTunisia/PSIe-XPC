@@ -1,0 +1,2651 @@
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+
+...doconce translation: insertion of verbatim and latex blocks 41.1 s (accumulated time: 41.2)
+
+
+...doconce format used 42.2 s to translate the document (139 lines)
+
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+
+*** error: wrong number of = in heading (6):
+    ====== Définition ======
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+Warning: found "!bc pycodext", but pycodext is not a standard predefined code environment
+
+...doconce translation: insertion of verbatim and latex blocks 35.9 s (accumulated time: 36.1)
+
+
+...doconce format used 37.1 s to translate the document (308 lines)
+
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+Warning: found "!bc pycodext", but pycodext is not a standard predefined code environment
+
+...doconce translation: insertion of verbatim and latex blocks 28.8 s (accumulated time: 28.9)
+
+
+...doconce format used 29.9 s to translate the document (310 lines)
+
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+Warning: found "!bc text-pycod", but text-pycod is not a standard predefined code environment
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+*** warning: latex format will have problem with words
+    containing underscores (this warning is very uncertain, might be wrong too):
+
+Compte_bancaire
+
+    typeset these words with `inline verbatim` or escape with backslash
+    First word appears here:
+r : 
+ 
+
+0 <<<!!CODE_BLOCK  pycod
+ 
+
+Soit la classe Compte_bancaire définie par:
+* 
+ * Attributs de classe : 
+ 
+output in cours2.tex
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+*** warning: latex format will have problem with words
+    containing underscores (this warning is very uncertain, might be wrong too):
+
+Compte_bancaire
+
+    typeset these words with `inline verbatim` or escape with backslash
+    First word appears here:
+r : 
+ 
+
+0 <<<!!CODE_BLOCK  pycod
+ 
+
+Soit la classe Compte_bancaire définie par:
+* 
+ * Attributs de classe : 
+ 
+output in cours2.tex
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+
+*** error: inconsistent no of = in heading:
+===== Création d'objets en Python =====La création d’une instance (objet) d’une classe donnée se fait par un appel au nom de la classe avec les paramètres effectifs du constructeur, selon la syntaxe suivante :
+    lengths: 5 and 1, must be equal and odd
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+
+...doconce translation: insertion of verbatim and latex blocks 21.4 s (accumulated time: 21.6)
+
+
+...doconce format used 22.6 s to translate the document (358 lines)
+
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+
+...doconce translation: insertion of verbatim and latex blocks 39.6 s (accumulated time: 39.7)
+
+
+...doconce format used 40.7 s to translate the document (509 lines)
+
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+
+...doconce translation: insertion of verbatim and latex blocks 40.9 s (accumulated time: 41.1)
+
+
+...doconce format used 42.1 s to translate the document (719 lines)
+
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+
+*** error: missing colon after FIGURE specification
+FIGURE : "figures/python3-25.png"
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+
+*** error: missing colon after FIGURE specification
+FIGURE : (figures/python3-25.png)
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+
+*** error: missing colon after FIGURE specification
+FIGURE : [figures/python3-25.png]
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+
+*** warning: found multi-line caption for figures/python3-25.png
+
+
+!split
+======= Classe et Objet =======
+===== Définitions =====
+Concrètement un objet est une entité du monde réel. Une personne, une voiture, une forme géométrique, une image, une feuille, etc.
+
+    fix: collected this text to one single line (right?)
+
+*** warning: the total of 1 fixes above should be manually edited in the file!
+    (also note: some of these automatic fixes may not be what you want)
+
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+
+*** warning: found multi-line caption for figures/python3-25.png
+
+
+!split
+======= Classe et Objet =======
+===== Définitions =====
+Concrètement un objet est une entité du monde réel. Une personne, une voiture, une forme géométrique, une image, une feuille, etc.
+
+    fix: collected this text to one single line (right?)
+
+*** warning: the total of 1 fixes above should be manually edited in the file!
+    (also note: some of these automatic fixes may not be what you want)
+
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+
+*** warning: found multi-line caption for figures/python3-25.png
+
+
+!split
+======= Classe et Objet =======
+===== Définitions =====
+Concrètement un objet est une entité du monde réel. Une personne, une voiture, une forme géométrique, une image, une feuille, etc.
+
+    fix: collected this text to one single line (right?)
+
+*** warning: the total of 1 fixes above should be manually edited in the file!
+    (also note: some of these automatic fixes may not be what you want)
+
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+
+*** warning: found multi-line caption for figures/python3-25
+
+
+!split
+======= Classe et Objet =======
+===== Définitions =====
+Concrètement un objet est une entité du monde réel. Une personne, une voiture, une forme géométrique, une image, une feuille, etc.
+
+    fix: collected this text to one single line (right?)
+
+*** warning: the total of 1 fixes above should be manually edited in the file!
+    (also note: some of these automatic fixes may not be what you want)
+
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+
+*** warning: found multi-line caption for figures/python3-25
+
+
+!split
+======= Classe et Objet =======
+===== Définitions =====
+Concrètement un objet est une entité du monde réel. Une personne, une voiture, une forme géométrique, une image, une feuille, etc.
+
+    fix: collected this text to one single line (right?)
+
+*** warning: the total of 1 fixes above should be manually edited in the file!
+    (also note: some of these automatic fixes may not be what you want)
+
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+
+*** warning: found multi-line caption for figures/python3-25
+
+
+!split
+======= Classe et Objet =======
+===== Définitions =====
+Concrètement un objet est une entité du monde réel. Une personne, une voiture, une forme géométrique, une image, une feuille, etc.
+
+    fix: collected this text to one single line (right?)
+
+*** warning: the total of 1 fixes above should be manually edited in the file!
+    (also note: some of these automatic fixes may not be what you want)
+
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+
+*** error: wrong number of = in heading (4):
+    ==== Exemple : Comptes bancaires ====
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+*** made directory latex_figs for admon figures
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.pdf for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Rectangle:
+    can use scripts/classes_Rectangle.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+
+...doconce translation: insertion of verbatim and latex blocks 34.5 s (accumulated time: 35.0)
+
+
+...doconce format used 36.4 s to translate the document (1133 lines)
+
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+
+...doconce translation: insertion of verbatim and latex blocks 41.1 s (accumulated time: 41.7)
+
+
+...doconce format used 43.0 s to translate the document (1139 lines)
+
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+
+*** error: inconsistent no of = in heading:
+======= Méthodes spéciales et surcharge des opérateurs=======
+    lengths: 7 and 17, must be equal and odd
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+
+*** error: inconsistent no of = in heading:
+======= Méthodes spéciales et surcharge des opérateurs=======
+    lengths: 7 and 17, must be equal and odd
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+
+*** error: inconsistent no of = in heading:
+======= Méthodes spéciales et surcharge des opérateurs=======
+    lengths: 7 and 17, must be equal and odd
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+
+*** error: inconsistent no of = in heading:
+===== Surcharge de l'appel fonctionnel `__call__` ======
+    lengths: 5 and 6, must be equal and odd
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+
+...doconce translation: insertion of verbatim and latex blocks 42.5 s (accumulated time: 43.0)
+
+
+...doconce format used 44.2 s to translate the document (1159 lines)
+
+output in cours2.tex
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file figures/python3-25:
+    can use figures/python3-25.png for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file figures/python3-25:
+    can use figures/python3-25.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file figures/python3-25:
+    can use figures/python3-25.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
+translating doconce text in cours2.do.txt to pdflatex
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.pdf for format pdflatex
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.pdf for format pdflatex
+output in cours2.tex
+translating doconce text in cours2.do.txt to html
+open file with encoding utf-8
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format html
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format html
+output in cours2-bs.html
+translating doconce text in cours2.do.txt to ipynb
+copy complete file scripts/class.py (format: pypro)
+copy complete file scripts/Personne.py (format: pypro)
+copy complete file scripts/Vec2D.py (format: pypro)
+copy complete file scripts/Quadrupede.py (format: pypro)
+copy complete file scripts/Rectangle.py (format: pypro)
+figure file scripts/classes_Quadrupede:
+    can use scripts/classes_Quadrupede.png for format ipynb
+figure file scripts/classes_CompteBancaire:
+    can use scripts/classes_CompteBancaire.png for format ipynb
+collected all required additional files in ipynb-cours2-src.tar.gz which must be distributed with the notebook
+output in cours2.ipynb
